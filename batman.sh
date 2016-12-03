@@ -2,8 +2,8 @@
 #
 # /etc/NetworkManager/dispatcher.d/05-batman
 
-if test -s /etc/sysconfig/batman-mesh; then
-  . /etc/sysconfig/batman-mesh
+if test -s /etc/sysconfig/batmesh; then
+  . /etc/sysconfig/batmesh
 fi
 
 test -z "$ESSID" && ESSID="chantilly-mesh"
